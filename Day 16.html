@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 48</title>
+    <style>
+        div {
+            color: red;
+            font-family: 'Apple Chancery', cursive;
+            font-size: 30px;
+            padding-bottom: 15px;
+        }
+
+        span {
+            margin-left: 20px;
+        }
+
+        #color_id {
+            float: right;
+            margin-right: 20px;
+        }
+
+        #flip {
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            border-top: 3px solid black;
+        }
+
+        #btn {
+            padding: 15px 25px;
+            font-size: 40px;
+            color: white;
+            background-color: red;
+            border-radius: 15px;
+            cursor: pointer;
+            position: absolute;
+            left: 690px;
+            top: 280px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div>
+        <span>Color Flipper</span>
+        <span id="color_id">#FFFFFF</span>
+    </div>
+
+    <div id="flip">
+        <button id="btn" onclick="action()">Touch</button>
+    </div>
+
+    <script src="./Day 16.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 35</title>
+    <style>
+        .div {
+            height: 400px;
+            width: 500px;
+            border: 3px solid green;
+            border-radius: 25px;
+            margin: 50px auto;
+        }
+
+        h2 {
+            margin: 50px 0px 0px 40px;
+            font-size: 30px;
+        }
+
+        input {
+            position: relative;
+            top: 30px;
+            left: 40px;
+            font-size: 23px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        button {
+            position: relative;
+            top: 115px;
+            left: -270px;
+            font-size: 23px;
+            padding: 10px;
+            color: white;
+            background-color: red;
+            border-radius: 10px;
+        }
+
+        h1 {
+            position: relative;
+            top: 135px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- INCHES CONVERTER -->
+
+    <div class = "div">       
+        <h2>Inches to CM</h2>
+        <input type = "text" id = "input" placeholder="Enter your inches value: ">
+        <button onclick = "inches()">Convert to cm</button>
+        <h1 id ="result"></h1>  
+    </div>
+
+    <script src = "./Day 4.js"></script>
+</body>
+</html>
